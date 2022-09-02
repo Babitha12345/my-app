@@ -1,0 +1,83 @@
+{
+  "name": "Pabba Babitha",
+  "contact": {
+    "email": "pabbababitha@gmail.com",
+    "location": "Hyderabad",
+    "mobile": "6303717962"
+    
+  },
+  "education": 
+  {
+    "ug":{
+      "degree": "Bachelor of Technology",
+      "institute": "CMR Institute Of Technology",
+      "branch":"ECE",
+      "cgpa": "8.5",
+      "year": "2022"
+    },
+   "hsc":{
+      "degree": "Higher Secondary Education",
+      "institute": "Sri Chaitanya",
+      "branch": "MPC",
+      "cgpa": "9.7",
+      "year": "2018"
+    }
+  },
+
+  "projects": {
+    "project1": {
+      "title": "Restaurant Reviews",
+      "desc1": "Project on ML using Python"
+      
+    }
+  },
+  "workexp": {
+    "work": {
+      "company": "Virtusa",
+      "designation": "Associate Engineer",
+      "startdate": "05/2022",
+      "enddate": "Present",
+      "tasks": "Working on assignments which include to develop website using Java full stack."
+    }
+  },
+
+  "certifications": {
+    "certificate1": {
+      "name": "Oracle Certified Associate"
+      
+    },
+    "certificate2": {
+      "name": "Microsoft Technology Associate"
+      
+    }
+  },
+  "languages": {
+    "lang1": {
+      "name": "English"
+
+      
+    },
+    "lang2": {
+      "name": "Telugu"
+      
+    },
+    "lang3": {
+      "name": "Hindi"
+      
+    }
+  },
+
+  "skills":{
+    "skill1":"C",
+    "skill2":"Java ",
+    "skill3":"Python",
+    "skill4":"MySql",
+    "skill5":"HTML",
+    "skill6":"CSS",
+    "skill7":"ML"
+  },
+  "Hobbies":{
+    "name":"listening to music"
+
+  }
+}

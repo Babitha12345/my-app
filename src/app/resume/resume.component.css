@@ -1,0 +1,66 @@
+.content{
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 1px;
+  background-color: white;
+}
+
+.header{
+  margin-top: 2%;
+  margin-left: 5%;
+}
+
+.contact{
+  background-color: rgb(32, 42, 78);
+  color: white;
+}
+
+.cont1{
+  margin-left: 5%;
+  margin-top: 1%;
+  margin-right: 3%;
+}
+.title1{
+  font-weight: bold;
+}
+.title{
+  font-weight: bold;
+  margin-top: 5%;
+}
+.subtitle1{
+  font-weight: bold;
+  margin-top: 4%;
+}
+
+.bg{
+  background-color: rgb(225, 237, 237);
+}
+
+.end{
+  text-align: end;
+}
+.box{
+  border:1px solid;
+  border-radius: 5px;
+  width: fit-content;
+  padding: 5px;
+  margin-top: 2%;
+  
+}
+.sbox{
+  border-color: rgb(225, 237, 237);
+  border:1px solid;
+  border-radius: 5px;
+  width: fit-content;
+  padding: 3px 10px;
+  margin-top: 2%;
+  background-color:  rgb(190, 197, 197);
+  
+}
+.left{
+  margin-left: 1px;
+}
+
+.left2{
+  margin-left: 2%;
+}

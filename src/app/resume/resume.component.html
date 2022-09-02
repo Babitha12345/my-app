@@ -1,0 +1,135 @@
+<div class="bg">
+  <div class="content">
+    <div class="header">
+      <h2 class="name">{{ resume.name }}</h2>
+    </div>
+    <div class="contact">
+      <div class="row">
+        <div class="col-5 cont1">
+          <p><i class="bi bi-envelope-fill"></i> {{ resume.contact.email }}</p>
+          <p><i class="bi bi-geo-alt-fill"></i>{{ resume.contact.location }}</p>
+          
+        </div>
+        <div class="col-5 cont1">
+          <p><i class="bi bi-phone-fill"></i>{{ resume.contact.mobile }}</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-5 cont1">
+        <h5 class="title1">EDUCATION</h5>
+        <div class="education1">
+          <h5 class="subtitle1">{{ resume.education.ug.degree }}</h5>
+          <h5 class="subtitle2">{{ resume.education.ug.institute }}</h5>
+          <div class="course row">
+            <div class="col-5">
+              {{ resume.education.ug.branch }} -
+              {{ resume.education.ug.year }}
+            </div>
+            <div class="col-7 end">CGPA - {{ resume.education.ug.cgpa }}</div>
+          </div> 
+        </div>
+          <!-- <div>Courses</div>
+          <p>{{ resume.education.ug.course }}</p>
+         -->
+
+        <div class="education2">
+          <h5 class="subtitle1">{{ resume.education.hsc.degree }}</h5>
+          <h5 class="subtitle2">{{ resume.education.hsc.institute }}</h5>
+          <div class="course row">
+            <div class="col-5">
+              {{ resume.education.hsc.branch }} -
+              {{ resume.education.hsc.year }}
+            </div>
+            <div class="col-7 end">
+              CGPA - {{ resume.education.hsc.cgpa }}
+            </div>
+          </div> 
+        </div>
+        <div class="projects">
+          <h5 class="title">PROJECTS</h5>
+          <h5 class="subtitle2">{{ resume.projects.project1.title }}</h5>
+          <ul>
+            <li>{{ resume.projects.project1.desc1 }}</li>
+           
+          </ul>
+          
+        </div>
+        <div class="work exp">
+          <h5 class="title">WORK EXPERIENCE</h5>
+          <h5 class="subtitle1">{{ resume.workexp.work.company }}</h5>
+          <h5 class="subtitle2">{{ resume.workexp.work.designation }}</h5>
+          <p>
+            {{ resume.workexp.work.startdate }} -
+            {{ resume.workexp.work.enddate }}
+          </p>
+        </div>
+        <div class="certifications">
+          <h5 class="title">CERTIFICATIONS</h5>
+          <ul>
+            <li>{{resume.certifications.certificate1.name}}</li>
+            <li>{{resume.certifications.certificate2.name}}</li>
+          </ul>
+          <!-- <h5 class="subtitle2">
+            {{ resume.certifications.certificate1.name }}
+          </h5>
+
+          <h5 class="subtitle2">
+            {{ resume.certifications.certificate2.name }} 
+              
+            
+          </h5> -->
+        </div>
+
+          
+      </div>
+      <div class="languages">
+        <h5 class="title">LANGUAGES</h5>
+        <ul>
+          <li>{{resume.languages.lang1.name}}</li>
+          <li>{{resume.languages.lang2.name}}</li>
+          <li>{{resume.languages.lang3.name}}</li>
+        </ul>
+      </div>
+
+        <!-- <div class="row">
+          <div class="col-6">
+            <h6>{{ resume.languages.lang1.name }}</h6>
+            <h6>{{ resume.languages.lang2.name }}</h6>
+            <h6>{{ resume.languages.lang3.name }}</h6>
+            
+          </div>  
+        </div>
+      </div>  -->
+
+      <div class="col-5 cont1">
+        <div class="skills">
+          <h5 class="title1">SKILLS</h5>
+          <div class="row "><div class="sbox left2">{{resume.skills.skill1}} </div>
+          <div class="sbox left2">{{resume.skills.skill2}} </div>
+          <div class="sbox left2">{{resume.skills.skill3}} </div>
+          <div class="sbox left2">{{resume.skills.skill4}} </div>
+          <div class="sbox left2">{{resume.skills.skill5}} </div>
+          <div class="sbox left2">{{resume.skills.skill6}} </div>
+          <div class="sbox left2">{{resume.skills.skill7}} </div>
+        </div>
+          <!-- <ul>
+            <li>{{resume.skills.skill1}}<li>
+            <li>{{resume.skills.skill2}}<li>
+            <li>{{resume.skills.skill3}}<li>
+            <li>{{resume.skills.skill4}}</li>
+            <li>{{resume.skills.skill5}}<li>
+            <li>{{resume.skills.skill6}}<li>
+            <li>{{resume.skills.skill7}}<li>
+          </ul> -->
+        
+      </div>
+        <div class="hobbies">
+          <h5 class="title">HOBBIES</h5>
+          <div class="col-6">
+            <h6>{{resume.Hobbies.name}}</h6>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
